@@ -1,1 +1,17 @@
+My project begins with the 'introintent' fuction which asks the user for the hockey team they want to learn about. The
+'team_choose" intent is open and listens for the user's response. This response is a slot in the intent and is stored in the
+variable 'team'. This is sent to the 'getCupResponse' method.
 
+The 'getCupResponse' method uses a 2D array to search for a string that matches the team variable. The 2D array is set up where
+the first row is all the team names in the NHL that the user could say. The second row is the number of times the team directly
+above it has won the cup. Using a for loop the function looks for a matching string if it doesn't find one the loop is exited and
+the fuction returns a string saying "the team does not exist" back to the 'team_choose' function and the program ends. If it does
+find a matching string, using that index it goes to the next row and gets the number of Stanley Cup victories for that column
+index (each column is a team). Using if statements, based on the integer found the return is built to be gramatically correct so 
+there is a different response for 0,1 and >1 total wins. The response is return to the 'team_choose' method where Alexa simply says
+what is returned from the 'getCupResponse' method.
+
+A section of 2D array
+hurricanes  | blue jackets  | devils  | islanders | rangers |         \\31 columns total, one for each team, team name in row 0
+    1       |      0        |   3     |     0     |   0     |         \\ Row 1 consists of corresponding Stanley cups wins. 
+                                                                      \\ So hurricanes have 1 Stanley Cup.
