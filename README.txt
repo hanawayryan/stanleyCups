@@ -7,13 +7,19 @@
    \ \____________\ \_______\ \_______\ \_______\ \_______\ \__\    \ \__\ \_______\
     \|____________|\|_______|\|_______|\|_______|\|_______|\|__|     \|__|\|_______|
                                                                                     
-This Alexa skill was built for those hockey fanse who just can't remember every thing; given the team name, this skill will tell you how many Stanley Cups that team has won since the cup's inception in 1915.
+This Alexa skill was built for those hockey fanse who just can't remember every thing; given the team name, this skill will tell
+you how many Stanley Cups that team has won since the cup's inception in 1915.
 
-  To use this skill you must say: "Alexa, open Hockey Stats" then to begin the conversation you can say "lets talk about hockey". You can do this all in one sentence by saying "Alexa open Hockey stats and lets talk about hockey.".
+To use this skill you must say: "Alexa, open Hockey Stats" then to begin the conversation you can say "lets talk about hockey".
+You can do this all in one sentence by saying "Alexa open Hockey stats and lets talk about hockey.".
   
-  Alexa will now reply with "What team would you like to know the total Stanley Cup championships?". You respond by saying the name of the team that you want to find the number of Stanley Cups they have so: "The Rangers" or just "Rangers". Alexa will now respond with the number of Stanley cups that team has won so given "Rangers" Alexa will reply: "The Rangers won the Stanley Cup 4 times.".
+Alexa will now reply with "What team would you like to know the total Stanley Cup championships?". You respond by saying the name
+of the team that you want to find the number of Stanley Cups they have so: "The Rangers" or just "Rangers". Alexa will now respond
+with the number of Stanley cups that team has won so given "Rangers" Alexa will reply: "The Rangers won the Stanley Cup 4 times.".
   
-  If you say a team name that does not exist Alexa will reply, "Team does not exist." and the program will close because she doesn't want to put up with your tomfoolery. Each time you want to use this program you have to re-open it by saying "Alexa, open Hockey Stats".
+If you say a team name that does not exist Alexa will reply, "Team does not exist." and the program will close because she
+doesn't want to put up with your tomfoolery. Each time you want to use this program you have to re-open it by saying
+"Alexa, open Hockey Stats and lets talk about hockey.".
   
 EXAMPLE CONVERSATION
 
