@@ -13,5 +13,5 @@ what is returned from the 'getCupResponse' method.
 
 A section of 2D array
 hurricanes  | blue jackets  | devils  | islanders | rangers |         \\31 columns total, one for each team, team name in row 0
-    1       |      0        |   3     |     0     |   0     |         \\ Row 1 consists of corresponding Stanley cups wins. 
+    1       |      0        |   3     |     0     |   4     |         \\ Row 1 consists of corresponding Stanley cups wins. 
                                                                       \\ So hurricanes have 1 Stanley Cup.
